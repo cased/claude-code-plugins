@@ -1,0 +1,14 @@
+{
+  "name": "kit-cli",
+  "version": "1.0.0",
+  "description": "Run focused kit CLI commands for fast codebase exploration, symbol extraction, and dependency analysis",
+  "author": {
+    "name": "Cased",
+    "url": "https://cased.com"
+  },
+  "homepage": "https://github.com/cased/claude-code-plugins",
+  "repository": "https://github.com/cased/claude-code-plugins",
+  "license": "MIT",
+  "keywords": ["kit", "codebase", "exploration", "symbols", "search", "dependencies", "file-tree"],
+  "skills": "./skills"
+}

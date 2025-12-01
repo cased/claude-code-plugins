@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Claude Code Plugin Manifest",
+  "description": "Schema for .claude-plugin/plugin.json files",
+  "type": "object",
+  "required": ["name", "version", "description"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "maxLength": 64,
+      "description": "Plugin name (lowercase with hyphens)"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+",
+      "description": "Semantic version"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 1024,
+      "description": "What the plugin does"
+    },
+    "author": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri"
+    },
+    "repository": {
+      "type": "string",
+      "format": "uri"
+    },
+    "license": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "skills": {
+      "type": "string",
+      "pattern": "^\\./",
+      "description": "Relative path to skills directory"
+    },
+    "commands": {
+      "type": "string",
+      "pattern": "^\\./",
+      "description": "Relative path to commands directory"
+    },
+    "hooks": {
+      "type": "string",
+      "pattern": "^\\./",
+      "description": "Relative path to hooks config"
+    },
+    "mcpServers": {
+      "type": "string",
+      "pattern": "^\\./",
+      "description": "Relative path to MCP server config"
+    }
+  },
+  "additionalProperties": false
+}

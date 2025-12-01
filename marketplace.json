@@ -1,0 +1,17 @@
+{
+  "name": "cased-claude-code-plugins",
+  "description": "Curated collection of Claude Code plugins by Cased",
+  "version": "1.0.0",
+  "repository": "https://github.com/cased/claude-code-plugins",
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "kit-cli",
+      "path": "./plugins/kit-cli",
+      "description": "Run focused kit CLI commands for fast codebase exploration",
+      "version": "1.0.0",
+      "type": "skill",
+      "keywords": ["kit", "codebase", "exploration", "symbols", "search", "dependencies"]
+    }
+  ]
+}
