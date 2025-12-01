@@ -14,19 +14,7 @@ This skill enables Claude to use the [kit](https://github.com/cased/kit) CLI for
 
 ## Prerequisites
 
-Install kit:
-
-```bash
-pipx install cased-kit
-# or
-pip install cased-kit
-```
-
-For semantic search, also install:
-
-```bash
-pip install "sentence-transformers>=2.6"
-```
+Install kit from [cased/kit](https://github.com/cased/kit).
 
 ## Installation
 
