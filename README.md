@@ -10,27 +10,26 @@ A collection of plugins for [Claude Code](https://claude.com/claude-code) includ
 
 ## Installation
 
+### Using the `/plugin` Command
+
+1. Add this marketplace to Claude Code:
+   ```
+   /plugin marketplace add cased/claude-code-plugins
+   ```
+
+2. Install a plugin:
+   ```
+   /plugin install kit-cli
+   ```
+
 ### Manual Installation
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/cased/claude-code-plugins.git
-   ```
+Alternatively, clone and copy files directly:
 
-2. Copy the desired plugin components to your Claude Code config:
-
-   **Skills:**
-   ```bash
-   cp -r claude-code-plugins/plugins/kit-cli/skills/kit-cli ~/.claude/skills/
-   ```
-
-   **MCP Servers:** Copy the `.mcp.json` config or merge with your existing configuration.
-
-   **Hooks:** Copy hook scripts to `~/.claude/hooks/` and update `~/.claude/settings.json`.
-
-   **Commands:** Copy command files to `~/.claude/commands/`.
-
-3. Restart Claude Code to load the new plugins.
+```bash
+git clone https://github.com/cased/claude-code-plugins.git
+cp -r claude-code-plugins/plugins/kit-cli/skills/kit-cli ~/.claude/skills/
+```
 
 ## Plugin Structure
 

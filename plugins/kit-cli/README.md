@@ -30,10 +30,9 @@ pip install "sentence-transformers>=2.6"
 
 ## Installation
 
-Copy the skill to your Claude Code config:
-
-```bash
-cp -r skills/kit-cli ~/.claude/skills/
+```
+/plugin marketplace add cased/claude-code-plugins
+/plugin install kit-cli
 ```
 
 ## Usage
