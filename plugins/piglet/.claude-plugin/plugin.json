@@ -1,0 +1,14 @@
+{
+  "name": "piglet",
+  "version": "1.0.0",
+  "description": "Manage PostHog feature flags, cohorts, dashboards, and insights from the command line",
+  "author": {
+    "name": "Cased",
+    "url": "https://cased.com"
+  },
+  "homepage": "https://github.com/cased/piglet",
+  "repository": "https://github.com/cased/claude-code-plugins",
+  "license": "MIT",
+  "keywords": ["posthog", "feature-flags", "cohorts", "dashboards", "insights", "analytics"],
+  "skills": "./skills"
+}

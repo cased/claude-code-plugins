@@ -14,6 +14,12 @@
       "source": "./plugins/kit-cli",
       "description": "Run focused kit CLI commands for fast codebase exploration",
       "version": "1.0.0"
+    },
+    {
+      "name": "piglet",
+      "source": "./plugins/piglet",
+      "description": "Manage PostHog feature flags, cohorts, dashboards, and insights",
+      "version": "1.0.0"
     }
   ]
 }
