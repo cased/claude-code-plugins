@@ -7,6 +7,7 @@ A collection of plugins for [Claude Code](https://claude.com/claude-code) includ
 | Plugin | Type | Description |
 |--------|------|-------------|
 | [kit-cli](./plugins/kit-cli) | skill | Run focused `kit` CLI commands for fast codebase exploration |
+| [piglet](./plugins/piglet) | skill | Manage PostHog feature flags, cohorts, dashboards, and insights |
 
 ## Installation
 
