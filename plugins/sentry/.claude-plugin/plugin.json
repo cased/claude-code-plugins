@@ -1,0 +1,14 @@
+{
+  "name": "sentry",
+  "version": "1.0.0",
+  "description": "Fetch Sentry error context and diagnose bugs with root cause analysis",
+  "author": {
+    "name": "Cased",
+    "url": "https://cased.com"
+  },
+  "homepage": "https://github.com/cased/claude-code-plugins",
+  "repository": "https://github.com/cased/claude-code-plugins",
+  "license": "MIT",
+  "keywords": ["sentry", "errors", "debugging", "diagnostics", "root-cause", "exceptions"],
+  "skills": "./skills"
+}

@@ -20,6 +20,12 @@
       "source": "./plugins/piglet",
       "description": "Manage PostHog feature flags, cohorts, dashboards, and insights",
       "version": "1.0.0"
+    },
+    {
+      "name": "sentry",
+      "source": "./plugins/sentry",
+      "description": "Fetch Sentry error context and diagnose bugs with root cause analysis",
+      "version": "1.0.0"
     }
   ]
 }
